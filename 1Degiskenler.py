@@ -10,7 +10,6 @@ print(maasAhmet-(maasAhmet*vergi))
 
 sayi1=10
 print(sayi1)
-
 sayi1=20
 print(sayi1)
 
