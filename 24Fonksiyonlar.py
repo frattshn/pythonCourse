@@ -7,22 +7,22 @@ sayHello()
 
 print("=======================")
 
-def sayHello(name):
+def sayHi(name):
     print("Hello "+name)
-sayHello("Fırat")
+sayHi("Fırat")
 
 print("=======================")
 
-def sayHello(name="UserName"):
+def sayHel(name="UserName"):
     print("Hello "+name)
-sayHello("Memduh")
-sayHello()                          #Parametre belirtilmediği zaman otomatik olarak fonksiyonun içinde atama yazılır.
+sayHel("Memduh")
+sayHel()                          #Parametre belirtilmediği zaman otomatik olarak fonksiyonun içinde atama yazılır.
 
 print("=======================")
 
-def sayHello(name="UserName"):
+def sayHell(name="UserName"):
     return "Hello "+name
-msg=sayHello("Sivaslı")
+msg=sayHell("Sivaslı")
 print(msg)
 
 print("=======================")
