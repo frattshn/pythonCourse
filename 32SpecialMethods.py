@@ -26,6 +26,6 @@ print("+++++++++++++")
 print(len(myLis))
 print(len(m))
 
-del m
+#del m
 
 print(m)
