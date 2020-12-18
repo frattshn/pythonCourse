@@ -37,4 +37,7 @@ class Person:
         else:
             self.name=name
 
-p=Person("Aliiiiiiiiiiiiiiiiiii",1989)
+try:
+    p=Person("Aliiiiiiiiiiiiiiiiiii",1989)
+except Exception as err:
+    print(err)
